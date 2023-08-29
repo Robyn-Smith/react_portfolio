@@ -1,4 +1,5 @@
 import React from 'react';
+import week1 from "../../assets/screenshot-horiseon-webpage.png";
 
 export default function Portfolio() {
   return (
@@ -16,6 +17,16 @@ export default function Portfolio() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+      <section class="box">
+            <header>My first project: Code Refactor</header>
+            <a href="https://robyn-smith.github.io/week-1-code-refactor-challenge/">
+              <img class= "first-project-img" alt="Horiseon Webpage" src={week1}></img>
+            </a>
+            <p>
+              This project is a code refactor to support a marketing agency website. The website contains information about Search Engine Optimisation, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness and Cost Management. It contains header, navigation, aside, section, figure, article and footer elements; which are styled in CSS. Within this code refactor I updated the title, fixed a link, replaced repetitive div tags with semantic elements, added alternative text descriptions to images and updated the CSS acordingly. As a result, this made the website more modern and suitible for HTML 5, more accessible for disabled users, improved funtionality and supported search engine optimisation.
+            </p>
+          </section>
+
     </div>
   );
 }
