@@ -1,35 +1,35 @@
-import React, { useState } from "react";
-// import 'bootstrap/dist/css/bootstrap.css';
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import React, { useState } from "react";
+// // import 'bootstrap/dist/css/bootstrap.css';
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
 
-import PortfilioList from "./PortfilioList";
+// import PortfilioList from "./PortfilioList";
 
-import data from "../data/portfolio.json";
+// import data from "../data/portfolio.json";
 
-function PortfolioDashboard() {
-    const [portfolio, setPortfolio] = useState(data);
+// function PortfolioDashboard() {
+//     const [portfolio, setPortfolio] = useState(data);
 
-    const onFilterPortfilio = (e) => {
-        const filter = e.target.value.toLowerCase();
+//     const onFilterPortfilio = (e) => {
+//         const filter = e.target.value.toLowerCase();
 
-        if (filter === "") {
-            setPortfolio(data);
-        } else {
-            const filteredPortfilio = data.filter((item) =>
-            item.tags.includes(filter)
-            );
-            setPortfolio(filteredPortfilio);
-        }
-    };
+//         if (filter === "") {
+//             setPortfolio(data);
+//         } else {
+//             const filteredPortfilio = data.filter((item) =>
+//             item.tags.includes(filter)
+//             );
+//             setPortfolio(filteredPortfilio);
+//         }
+//     };
 
-    return (
-        <Row>
-            <Col sm={12}>
-                <PortfilioList portfolio={portfolio} onFilter={onFilterPortfilio} />
-            </Col>
-        </Row>
-    );
-}
+//     return (
+//         <Row>
+//             <Col sm={12}>
+//                 <PortfilioList portfolio={portfolio} onFilter={onFilterPortfilio} />
+//             </Col>
+//         </Row>
+//     );
+// }
 
-export default PortfolioDashboard;
+// export default PortfolioDashboard;
