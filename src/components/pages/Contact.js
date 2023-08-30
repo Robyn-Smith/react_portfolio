@@ -4,25 +4,25 @@ import React, { useState } from "react";
 function Contact() {
     const formData = { userName: "", userEmail: "", userMessage: "" };
 
-    // Here we set two state variables for firstName and lastName using 'useState'
+    // Here we set two state variables for firstName and lastName using 'useState'-jsn
     const [data, setData] = useState(formData);
     const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
+        // Getting the value and name of the input which triggered the change-jsn
         const { id, value } = e.target;
 
         setData({ ...data, [id]: value });
     };
     const handleFormSubmit = (e) => {
-        // preventing the default behaviour of the form submit (which is to refresh the ..)
+        // preventing the default behaviour of the form submit (which is to refresh the ..)-jsn
         e.preventDefault();
 
-        // alert the user their first and last name, clear the inputs
+        // alert the user their first and last name, clear the inputs-jsn
         alert(`Thanks for your message ${data.userName}`);
         setData(formData);
     };
     return (
     <div>
-      <h1>Contact Page</h1>
+      <h1 style={{ color: '#b62075' }}>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet

@@ -4,7 +4,7 @@ import profilepic from "../../assets/wedding-robyn.png";
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 style={{ color: '#b62075' }}>About Me</h1>
       <img class= "profilepic" alt="Picture of Robyn" src={profilepic}></img>
       <p>
       A career in coding is the right choice for me because I enjoy problem solving, creativity 
