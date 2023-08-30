@@ -9,8 +9,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('About')}
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          style={{ color: '#b62075' }}
         >
-          About
+          About Me
         </a>
       </li>
       <li className="nav-item">
@@ -20,8 +21,9 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          style={{ color: '#b62075' }}
         >
-          Portfolio
+          My Portfolio
         </a>
       </li>
       <li className="nav-item">
@@ -30,8 +32,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Resume')}
 
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          style={{ color: '#b62075' }}
         >
-          Resume
+          My Resume
         </a>
       </li>
       <li className="nav-item">
@@ -40,8 +43,9 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          style={{ color: '#b62075' }}
         >
-          Contact
+          Contact Me
         </a>
       </li>
     </ul>
