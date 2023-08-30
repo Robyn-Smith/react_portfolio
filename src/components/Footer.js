@@ -17,8 +17,9 @@
 //       </footer>
 
 // export default Footer;
-import React from 'react';
 //import '../styles/Header.css';
+
+import React from 'react';
 import github from '../assets/github-icon-logo-png-transparent.png';
 import linkedin from '../assets/linkedin-icon-logo-png-transparent.png';
 import facebook from '../assets/facebook-3-logo-png-transparent.png';
@@ -29,8 +30,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     padding: '2%',
-    background: '#b62075',
-    // '#b6207562'
+    background: '#b6207562',
 };
 
 const socialStyle = {
@@ -70,7 +70,7 @@ function Footer() {
                     onMouseOut={e => e.currentTarget.style.opacity = 1}
                 /></a>
             </div>
-            <span>© Robyn Smith</span>
+            <span style={{ color: 'white',}}>© Robyn Smith</span>
         </footer>
     );
 }

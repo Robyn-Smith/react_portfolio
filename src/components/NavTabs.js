@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul style={{ backgroundImage: 'linear-gradient(60deg, rgba(208, 5, 130, 0.215), white, rgba(241, 98, 16, 0.174))'}} className="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
