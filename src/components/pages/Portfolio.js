@@ -1,5 +1,5 @@
 import React from 'react';
-import week1 from "../../assets/screenshot-horiseon-webpage.png";
+import week1 from "../../assets/project1.png";
 
 export default function Portfolio() {
   return (
@@ -18,7 +18,7 @@ export default function Portfolio() {
         fames ac ante ipsum primis in faucibus.
       </p>
       <section class="box">
-            <header>My first project: Code Refactor</header>
+            <h3 style={{ color: '#b62075' }}>My first project: Code Refactor</h3>
             <a href="https://robyn-smith.github.io/week-1-code-refactor-challenge/">
               <img class= "first-project-img" alt="Horiseon Webpage" src={week1}></img>
             </a>
