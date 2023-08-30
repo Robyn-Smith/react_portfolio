@@ -52,22 +52,22 @@ function Footer() {
                     src={github}
                     alt="github"
                     style={imgStyle}
-                    onMouseOver={e => e.currentTarget.style.opacity = 0.6}
-                    onMouseOut={e => e.currentTarget.style.opacity = 1}
+                    onMouseOver={e => e.currentTarget.style.opacity = 1}
+                    onMouseOut={e => e.currentTarget.style.opacity = 0.3}
                 /></a>
                 <a href="https://www.linkedin.com"><img
                     src={linkedin}
                     alt="linkedin"
                     style={imgStyle}
-                    onMouseOver={e => e.currentTarget.style.opacity = 0.6}
-                    onMouseOut={e => e.currentTarget.style.opacity = 1}
+                    onMouseOver={e => e.currentTarget.style.opacity = 1}
+                    onMouseOut={e => e.currentTarget.style.opacity = 0.2}
                 /></a>
                 <a href="https://www.facebook.com"><img
                     src={facebook}
                     alt="facebook"
                     style={imgStyle}
-                    onMouseOver={e => e.currentTarget.style.opacity = 0.6}
-                    onMouseOut={e => e.currentTarget.style.opacity = 1}
+                    onMouseOver={e => e.currentTarget.style.opacity = 1}
+                    onMouseOut={e => e.currentTarget.style.opacity = 0.3}
                 /></a>
             </div>
             <span style={{ color: 'white',}}>© Robyn Smith</span>

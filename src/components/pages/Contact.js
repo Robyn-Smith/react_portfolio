@@ -70,7 +70,15 @@ function Contact() {
                             value={data.userMessage}
                         ></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary mb-2">
+                    <button style={{ background: '#b62075', border: 'none', 
+                    margin: 'auto',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    justifyContent: 'space-evenly',}}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.7}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">
                         SEND
                     </button>
                 </form>
