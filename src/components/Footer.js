@@ -20,8 +20,8 @@
 import React from 'react';
 //import '../styles/Header.css';
 import github from '../assets/github-icon-logo-png-transparent.png';
-// import linkedin from '../images/linkedin.png';
-// import meta from '../images/meta.png';
+import linkedin from '../assets/linkedin-icon-logo-png-transparent.png';
+import facebook from '../assets/facebook-3-logo-png-transparent.png';
 
 const styles = {
     display: 'flex',
@@ -55,20 +55,20 @@ function Footer() {
                     onMouseOver={e => e.currentTarget.style.opacity = 0.6}
                     onMouseOut={e => e.currentTarget.style.opacity = 1}
                 /></a>
-                {/* <a href="https://www.linkedin.com"><img
+                <a href="https://www.linkedin.com"><img
                     src={linkedin}
                     alt="linkedin"
                     style={imgStyle}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.6}
                     onMouseOut={e => e.currentTarget.style.opacity = 1}
-                /></a> */}
-                {/* <a href="https://www.facebook.com"><img
-                    src={meta}
-                    alt="meta"
+                /></a>
+                <a href="https://www.facebook.com"><img
+                    src={facebook}
+                    alt="facebook"
                     style={imgStyle}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.6}
                     onMouseOut={e => e.currentTarget.style.opacity = 1}
-                /></a> */}
+                /></a>
             </div>
             <span>© Robyn Smith</span>
         </footer>
