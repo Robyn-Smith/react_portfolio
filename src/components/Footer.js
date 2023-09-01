@@ -70,7 +70,7 @@ function Footer() {
                     onMouseOut={e => e.currentTarget.style.opacity = 0.3}
                 /></a>
             </div>
-            <span style={{ color: 'white',}}>© Robyn Smith</span>
+            <span style={{ color: 'white',}}>© Robyn Smith 2023</span>
         </footer>
     );
 }
