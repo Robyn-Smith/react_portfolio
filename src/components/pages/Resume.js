@@ -1,24 +1,42 @@
 import React from 'react';
+import { jsPDF } from 'jspdf';
 
-export default function Resume() {
+function Resume() {
+  const handleDownload = () => {
+    const doc = new jsPDF();
+    doc.text('HTML, CSS, Git, JavaScript, Third-party APIs (jQuery, Bootstrap), Server-side APIs, AJAX, and JSONNode.js, Object-oriented programming (OOP), Express.js servers, MySQL, Object-relational mapper or ORM (Sequelize), Model-view-controller (MVC) framework (Handlebars.js), Unit testing, Agile methodology, HerokuComputer science, MongoDB and NoSQL, Progressive web apps (PWAs), React, MERN, Portfolios', 10, 10);
+    doc.save('your_resume.pdf');
+  };
+
   return (
     <div>
       <h1 style={{ color: '#b62075' }}>Resume Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <button onClick={handleDownload}>Download Resume</button>
+      <ul>
+        <li>HTML and CSS</li>
+        <li>Git</li>
+        <li>JavaScript</li>
+        <li>Third-party APIs (jQuery, Bootstrap)</li>
+        <li>Server-side APIs, AJAX, and JSON</li>
+        <li>Node.js</li>
+        <li>Object-oriented programming (OOP)</li>
+        <li>Express.js servers</li>
+        <li>MySQL</li>
+        <li>Object-relational mapper, or ORM (Sequelize)</li>
+        <li>Model-view-controller (MVC) framework (Handlebars.js)</li>
+        <li>Unit testing</li>
+        <li>Agile methodology</li>
+        <li>Heroku</li>
+        <li>Computer science</li>
+        <li>MongoDB and NoSQL</li>
+        <li>Progressive web apps (PWAs)</li>
+        <li>React</li>
+        <li>MERN</li>
+        <li>Portfolios</li>
+      </ul>
+      
     </div>
   );
-}
+};
+
+export default Resume;
