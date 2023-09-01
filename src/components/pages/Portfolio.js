@@ -3,7 +3,8 @@ import week1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.png";
 import picturesque from "../../assets/picturesque.png";
 import quiz from "../../assets/quiz.png";
-import weatherdash from "../../assets/weatherdash.png"
+import weatherdash from "../../assets/weatherdash.png";
+import techblog from "../../assets/techblog.png"
 
 export default function Portfolio() {
   return (
@@ -52,6 +53,15 @@ export default function Portfolio() {
             <h3 style={{ color: '#b62075' }}>Server side APIs: Weather Dashboard </h3>
             <a href="https://robyn-smith.github.io/Server-Side-APIs-Weather-Dashboard/">
               <img class= "projectpic" alt="Weather Dashboard" src={weatherdash}></img>
+            </a>
+            <p>
+              This project is a code refactor to support a marketing agency website. The website contains information about Search Engine Optimisation, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness and Cost Management. It contains header, navigation, aside, section, figure, article and footer elements; which are styled in CSS. Within this code refactor I updated the title, fixed a link, replaced repetitive div tags with semantic elements, added alternative text descriptions to images and updated the CSS acordingly. As a result, this made the website more modern and suitible for HTML 5, more accessible for disabled users, improved funtionality and supported search engine optimisation.
+            </p>
+          </section>
+          <section class="box">
+            <h3 style={{ color: '#b62075' }}>MVC: Tech Blog </h3>
+            <a href="https://robynsmith-techblog-ce4774308a7e.herokuapp.com/">
+              <img class= "projectpic" alt="Tech blog" src={techblog}></img>
             </a>
             <p>
               This project is a code refactor to support a marketing agency website. The website contains information about Search Engine Optimisation, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness and Cost Management. It contains header, navigation, aside, section, figure, article and footer elements; which are styled in CSS. Within this code refactor I updated the title, fixed a link, replaced repetitive div tags with semantic elements, added alternative text descriptions to images and updated the CSS acordingly. As a result, this made the website more modern and suitible for HTML 5, more accessible for disabled users, improved funtionality and supported search engine optimisation.
