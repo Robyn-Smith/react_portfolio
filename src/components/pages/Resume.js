@@ -11,7 +11,9 @@ function Resume() {
   return (
     <div>
       <h1 style={{ color: '#b62075' }}>Resume Page</h1>
-      <button onClick={handleDownload}>Download Resume</button>
+      <button onClick={handleDownload}style={{ background: '#b62075', border: 'none',}}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.7}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">Download Resume</button>
       <ul>
         <li>HTML and CSS</li>
         <li>Git</li>
