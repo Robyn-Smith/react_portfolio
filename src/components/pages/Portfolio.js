@@ -23,7 +23,7 @@ export default function Portfolio() {
             </p>
           </section>
       <section class="box">
-            <h3 style={{ color: '#b62075' }}>Group Project 1: Picturesque</h3>
+            <h3 style={{ color: '#b62075', textAlign: 'center' }}>Group Project 1: Picturesque</h3>
             <a href="https://robyn-smith.github.io/The-Dev-Society/">
               <img class= "projectpic" alt="picturesque" src={picturesque}></img>
             </a>
@@ -32,7 +32,7 @@ export default function Portfolio() {
             </p>
           </section>
       <section class="box">
-            <h3 style={{ color: '#b62075' }}>Group Project 2: Music Portal</h3>
+            <h3 style={{ color: '#b62075', textAlign: 'center'}}>Group Project 2: Music Portal</h3>
             <a href="https://front-end-society-2d48b234d58b.herokuapp.com">
               <img class= "projectpic" alt="Music portal" src={project2}></img>
             </a>
@@ -41,7 +41,7 @@ export default function Portfolio() {
             </p>
           </section>
           <section class="box">
-            <h3 style={{ color: '#b62075' }}>My first project: Code Refactor </h3>
+            <h3 style={{ color: '#b62075', textAlign: 'center'}}>My first project: Code Refactor </h3>
             <a href="https://robyn-smith.github.io/week-1-code-refactor-challenge/">
               <img class= "projectpic" alt="Horiseon Webpage" src={week1}></img>
             </a>
@@ -50,7 +50,7 @@ export default function Portfolio() {
             </p>
           </section>
           <section class="box">
-            <h3 style={{ color: '#b62075' }}>Server side APIs: Weather Dashboard </h3>
+            <h3 style={{ color: '#b62075', textAlign: 'center' }}>Server side APIs: Weather Dashboard </h3>
             <a href="https://robyn-smith.github.io/Server-Side-APIs-Weather-Dashboard/">
               <img class= "projectpic" alt="Weather Dashboard" src={weatherdash}></img>
             </a>
@@ -59,7 +59,7 @@ export default function Portfolio() {
             </p>
           </section>
           <section class="box">
-            <h3 style={{ color: '#b62075' }}>MVC: Tech Blog </h3>
+            <h3 style={{ color: '#b62075', textAlign: 'center' }}>MVC: Tech Blog </h3>
             <a href="https://robynsmith-techblog-ce4774308a7e.herokuapp.com/">
               <img class= "projectpic" alt="Tech blog" src={techblog}></img>
             </a>
