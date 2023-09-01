@@ -76,6 +76,20 @@ form{
   /* border-radius: 6px; */
 }
 
+.picturesque{
+  /* height: 200px; */
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* border-radius: 6px; */
+}
+
 .box {
   /* border-style: solid;
   border-width: 1px; */

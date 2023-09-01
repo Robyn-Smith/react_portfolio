@@ -1,6 +1,7 @@
 import React from 'react';
 import week1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.png"
+import picturesque from "../../assets/picturesque.png"
 
 export default function Portfolio() {
   return (
@@ -10,7 +11,7 @@ export default function Portfolio() {
         During my bootcamp full stack development course I completed multiple projects. This supported my knowledge, gave me experience and supported my confidence in coding. Please click the images below to view my projects.
       </p>
       <section class="box">
-            <h3 style={{ color: '#b62075' }}>Project 2: Music Portal</h3>
+            <h3 style={{ color: '#b62075' }}>Group Project 2: Music Portal</h3>
             <a href="https://front-end-society-2d48b234d58b.herokuapp.com">
               <img class= "project2" alt="Music portal" src={project2}></img>
             </a>
@@ -19,7 +20,16 @@ export default function Portfolio() {
             </p>
           </section>
           <section class="box">
-            <h3 style={{ color: '#b62075' }}>My first project: Code Refactor</h3>
+            <h3 style={{ color: '#b62075' }}>Group Project 1: Picturesque</h3>
+            <a href="https://robyn-smith.github.io/The-Dev-Society/">
+              <img class= "picturesque" alt="picturesque" src={picturesque}></img>
+            </a>
+            <p>
+            This was a group project was a movie website, allowing users to create personal watchlists, watch trailers and search for and learn more about films including actors that star in them, plot, place of creation, genre, imbd rating and date of creation. This aplication was created using HTML 5, CSS and JavaScript and used 4 API's including GeoCode -for City/Country to Latitude/Longitude, OMDB- for Movie details, YouTube- for Movie Trailer from YouTube and Google Map- for showing Country in Google Map.
+            </p>
+          </section>
+          <section class="box">
+            <h3 style={{ color: '#b62075' }}>My first project: Code Refactor </h3>
             <a href="https://robyn-smith.github.io/week-1-code-refactor-challenge/">
               <img class= "first-project-img" alt="Horiseon Webpage" src={week1}></img>
             </a>
