@@ -82,3 +82,12 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+/* .responsive {
+  @media screen and (max-width: 200px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+} */

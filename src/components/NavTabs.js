@@ -1,7 +1,9 @@
 import React from 'react';
+import styles from "../index.css"
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+  <div>
     <ul style={{ backgroundImage: 'linear-gradient(60deg, rgba(208, 5, 130, 0.215), white, rgba(241, 98, 16, 0.174))'}} className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -49,6 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+  </div>
   );
 }
 
