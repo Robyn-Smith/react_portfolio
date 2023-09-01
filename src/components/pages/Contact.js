@@ -69,7 +69,7 @@ function Contact() {
                     justifyContent: 'space-evenly',}}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.7}
                     onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">
-                        SEND
+                        Submit
                     </button>
                 </form>
     </div>
