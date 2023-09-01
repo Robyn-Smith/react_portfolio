@@ -13,7 +13,10 @@ const styles = {
 function Header({ currentPage }) {
     return (
         <header style={styles}>
-        <h1 style={{ color: 'white', textAlign: 'center'}}>Hi I'm Robyn Smith and this is my Portfolio</h1>
+        <h1 style={{ color: 'white',}}>Hi I'm <span style={{ color: '#b62075',
+        paddingLeft: '6px',
+        paddingRight: '6px',
+        }} class="name">Robyn Smith</span> and this is my Portfolio</h1>
         <p>
           I am a hardworking, conscientious first class graduate looking for a career in coding.
         </p>
