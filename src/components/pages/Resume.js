@@ -5,7 +5,7 @@ function Resume() {
   const handleDownload = () => {
     const doc = new jsPDF();
     doc.text('HTML, CSS, Git, JavaScript, Third-party APIs (jQuery, Bootstrap), Server-side APIs, AJAX, and JSONNode.js, Object-oriented programming (OOP), Express.js servers, MySQL, Object-relational mapper or ORM (Sequelize), Model-view-controller (MVC) framework (Handlebars.js), Unit testing, Agile methodology, HerokuComputer science, MongoDB and NoSQL, Progressive web apps (PWAs), React, MERN, Portfolios', 10, 10);
-    doc.save('your_resume.pdf');
+    doc.save('my_resume.pdf');
   };
 
   return (
@@ -14,7 +14,7 @@ function Resume() {
       <button onClick={handleDownload}style={{ background: '#b62075', border: 'none',}}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.7}
                     onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">Download Resume</button>
-      <ul>
+      <ul style={{ color: '#b62075' }}>
         <li>HTML and CSS</li>
         <li>Git</li>
         <li>JavaScript</li>
