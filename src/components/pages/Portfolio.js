@@ -1,5 +1,6 @@
 import React from 'react';
 import week1 from "../../assets/project1.png";
+import project2 from "../../assets/project2.png"
 
 export default function Portfolio() {
   return (
@@ -9,6 +10,15 @@ export default function Portfolio() {
         During my bootcamp full stack development course I completed multiple projects. This supported my knowledge, gave me experience and supported my confidence in coding. Please click the images below to view my projects.
       </p>
       <section class="box">
+            <h3 style={{ color: '#b62075' }}>Project 2: Music Portal</h3>
+            <a href="https://front-end-society-2d48b234d58b.herokuapp.com">
+              <img class= "project2" alt="Music portal" src={project2}></img>
+            </a>
+            <p>
+              This was a group project was a music streaming website, allowing users to create personal playlists, listen to songs and comment on public playlists. It was created using multiple technologies including Node.js, Express.js, Howler.js, bcrypt, Sequelize, dotenv, MySQL, Heroku, Handlebars Engine, CSS, JavaScript, SVGator and Canva.
+            </p>
+          </section>
+          <section class="box">
             <h3 style={{ color: '#b62075' }}>My first project: Code Refactor</h3>
             <a href="https://robyn-smith.github.io/week-1-code-refactor-challenge/">
               <img class= "first-project-img" alt="Horiseon Webpage" src={week1}></img>
