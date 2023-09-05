@@ -128,7 +128,7 @@ npm i
 ```md
 npm run start
 ```
-http://localhost:3000
+Then the server will be available at http://localhost:3000.
 
 
 ## Usage
