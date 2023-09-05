@@ -21,6 +21,7 @@ export default function Portfolio() {
             <p>
               This project used HTML, CSS and JavaScript to create a web API quiz. The quiz supports the users knowlege of coding by challenging the user to answer the multiple choice options correctly. The quiz uses audio files and messages to tell the user if they have answers right or wrong. The timer counts down at the top of the page limiting the users time to answer the question, when the user answers wrong the timer decrements even quicker. Finally, the quiz uses local storage to remmeber usernames and their highscores in the quiz.
             </p>
+            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-4-Web-API-Quiz">Github Repo</a>
           </section>
       <section class="box">
             <h3 style={{ color: '#b62075', textAlign: 'center' }}>Group Project 1: Picturesque</h3>

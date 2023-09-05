@@ -83,6 +83,14 @@ h3 {
   justify-content: space-evenly;
 }
 
+a{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 /* .responsive {
   @media screen and (max-width: 200px) {
     main,
