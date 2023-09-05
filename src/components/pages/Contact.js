@@ -53,7 +53,6 @@ function Contact() {
                         <textarea
                             className="form-control"
                             id="userMessage"
-                            rows="3"
                             placeholder="Please enter your Message here"
                             onChange={handleInputChange}
                             value={data.userMessage}
@@ -62,7 +61,6 @@ function Contact() {
                     <button style={{ background: '#b62075', border: 'none', 
                     margin: 'auto',
                     alignItems: 'center',
-                    justifyContent: 'center',
                     display: 'flex',
                     flexWrap: 'wrap',
                     justifyContent: 'space-evenly',}}
