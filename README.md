@@ -118,7 +118,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Description
-This application is a Portfolio created in react to help advertise my skills, previous work, description and contact details to prospective employers. This is importatant in supporting me to achieve my career goals in obtaining a job. React is a new technology so by using it I will stand out to recruiting companies.
+This application is a Portfolio created in react to help advertise the developer's skills, previous work, description and contact details to prospective employers. This is importatant in supporting the developer to achieve career goals in obtaining a job. React is a new technology so by using it it will support the developers chances in standing out to recruiting companies.
 
 ## Installation
 To install this application please type the following demands in the terminal:
@@ -130,5 +130,6 @@ npm run start
 ```
 http://localhost:3000
 
+
 ## Usage
-When the user first runs the application they will see the 'About me' page in the application with a summary describing me. In the header of everypage the user will see the developer's name and a very brief description. In the footer of each page the user will see icons for social media including github, facebook and linked in, once clicked the user will be taken to the developer's personal social media accounts. The user will also see a navigation bar at the top of the page, below the header, with links to the 'Portfolio page', 'My Resume' and 'Contact Me' page.
+When the user first runs the application they will see the 'About me' page in the application with a summary describing me. In the header of everypage the user will see the developer's name and a very brief description. In the footer of each page the user will see icons for social media including github, facebook and linked in, once clicked the user will be taken to the developer's personal social media accounts. The user will also see a navigation bar at the top of the page, below the header, with links to the 'Portfolio', 'My Resume' and 'Contact Me' page.
