@@ -4,7 +4,7 @@ import { jsPDF } from 'jspdf';
 function Resume() {
   const handleDownload = () => {
     const doc = new jsPDF();
-    doc.text('HTML, CSS, Git, JavaScript, Third-party APIs (jQuery, Bootstrap), Server-side APIs, AJAX, and JSONNode.js, Object-oriented programming (OOP), Express.js servers, MySQL, Object-relational mapper or ORM (Sequelize), Model-view-controller (MVC) framework (Handlebars.js), Unit testing, Agile methodology, HerokuComputer science, MongoDB and NoSQL, Progressive web apps (PWAs), React, MERN, Portfolios', 10, 10);
+    doc.text('My Resume to be added to when complete...', 10, 10);
     doc.save('my_resume.pdf');
   };
 
