@@ -1,18 +1,12 @@
 import React from "react";
 
-const styles = {
-    display: 'flex',
-    flexDirection: "column",
-    justifyContent: 'center',
-    alignItems: 'center',
-    // padding: '2%',
-    background: '#b6207562',
-    // 
-};
-
 function Header({ currentPage }) {
     return (
-        <header style={styles}>
+        <header style={{display: 'flex',
+        flexDirection: "column",
+        justifyContent: 'center',
+        alignItems: 'center',
+        background: '#b6207562',}}>
         <h1 style={{ color: 'white',}}>Hi I'm <span style={{ color: '#b62075',
         paddingLeft: '6px',
         paddingRight: '6px',

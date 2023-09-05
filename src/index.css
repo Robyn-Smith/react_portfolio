@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(60deg, rgba(241, 98, 16, 0.174), white, rgba(208, 5, 130, 0.215));
-  /* background-color: white; */
 }
 
 code {
@@ -32,16 +31,13 @@ h1{
   flex-wrap: wrap;
   justify-content: space-evenly;
   color: #b62075;
-  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 p{
-  /* background-color: rgba(204, 15, 135, 0.208); */
   color: #b62075;
   padding-left: 5%;
   padding-right: 5%;
   text-align: 'center'
-  /* font-family:'Times New Roman', Times, serif; */
 }
 
 form{
@@ -50,7 +46,6 @@ form{
 }
 
 .projectpic{
-  /* height: 200px; */
   width: 100%;
   margin: auto;
   align-items: center;
@@ -60,12 +55,9 @@ form{
   justify-content: space-evenly;
   padding-left: 5%;
   padding-right: 5%;
-  /* border-radius: 6px; */
 }
 
 .box {
-  /* border-style: solid;
-  border-width: 1px; */
   border-radius: 60px;
   padding: 10px;
   flex: 0 0 100%;
@@ -90,12 +82,3 @@ a{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-/* .responsive {
-  @media screen and (max-width: 200px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
-} */
