@@ -1,23 +1,22 @@
-// import React from 'react';
 import React, { useState } from "react";
 
 function Contact() {
     const formData = { userName: "", userEmail: "", userMessage: "" };
 
-    // Here we set two state variables for firstName and lastName using 'useState'-jsn
+    // this sets two state variables for firstName and lastName using 'useState'
     const [data, setData] = useState(formData);
     const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change-jsn
+        // this gets the value and name inputs that triggered the change 
         const { id, value } = e.target;
 
         setData({ ...data, [id]: value });
     };
     const handleFormSubmit = (e) => {
-        // preventing the default behaviour of the form submit (which is to refresh the ..)-jsn
+        // preventing the default behaviour so the page does not refresh and loose data given 
         e.preventDefault();
 
-        // alert the user their first and last name, clear the inputs-jsn
-        alert(`Thanks for your message ${data.userName}`);
+        // alert telling the user the message was succesful and thanking them by their name
+        alert(`Message was successfully sent, thank you ${data.userName}`);
         setData(formData);
     };
     return (
@@ -33,7 +32,7 @@ function Contact() {
                             type="text"
                             className="form-control"
                             id="userName"
-                            placeholder="e.g. John Smith"
+                            placeholder="Please enter your Name here"
                             value={data.userName}
                             onChange={handleInputChange}
                         />
@@ -44,7 +43,7 @@ function Contact() {
                             type="email"
                             className="form-control"
                             id="userEmail"
-                            placeholder="enter your email address"
+                            placeholder="Please enter your Email address here"
                             value={data.userEmail}
                             onChange={handleInputChange}
                         />
@@ -55,7 +54,7 @@ function Contact() {
                             className="form-control"
                             id="userMessage"
                             rows="3"
-                            placeholder="enter your message here"
+                            placeholder="Please enter your Message here"
                             onChange={handleInputChange}
                             value={data.userMessage}
                         ></textarea>
