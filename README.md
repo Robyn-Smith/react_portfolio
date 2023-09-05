@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React_Portfolio
 
 ## Description
 This application is a Portfolio created in react to help advertise the developer's skills, previous work, description and contact details to prospective employers. This is importatant in supporting the developer to achieve career goals in obtaining a job. React is a new technology so by using it it will support the developers chances in standing out to recruiting companies.
@@ -55,3 +55,7 @@ npm run start
 Then the server will be available at http://localhost:3000 in the browser.
 
 ## Screenshots of the Portfolio
+![A screenshot of the about page](/src/assets/about.png)
+![A screenshot of the portfolio page](/src/assets/portfolio.png)
+![A screenshot of the resume page](/src/assets/resume.png)
+![A screenshot of the contact page](/src/assets/contact.png)
