@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Header from './Header';
 import Footer from './Footer';
 
-export default function PortfolioContainer() {
+export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
