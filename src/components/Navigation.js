@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NavTabs({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
   <div>
     <ul style={{ backgroundImage: 'linear-gradient(60deg, rgba(208, 5, 130, 0.215), white, rgba(241, 98, 16, 0.174))'}} className="nav nav-tabs">
@@ -45,4 +45,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default Navigation;
