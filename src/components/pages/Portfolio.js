@@ -23,7 +23,9 @@ export default function Portfolio() {
             <p>
               This project used HTML, CSS and JavaScript to create a web API quiz. The quiz supports the users knowlege of coding by challenging the user to answer the multiple choice options correctly. The quiz uses audio files and messages to tell the user if they have answers right or wrong. The timer counts down at the top of the page limiting the users time to answer the question, when the user answers wrong the timer decrements even quicker. Finally, the quiz uses local storage to remmeber usernames and their highscores in the quiz.
             </p>
-            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-4-Web-API-Quiz">Github Repo</a>
+            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-4-Web-API-Quiz"
+           onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+           onMouseOut={e => e.currentTarget.style.opacity = 1} >Github Repo</a>
           </section>
 
       <section class="box">
@@ -36,7 +38,9 @@ export default function Portfolio() {
             <p>
             This was a group project was a movie website, allowing users to create personal watchlists, watch trailers and search for and learn more about films including actors that star in them, plot, place of creation, genre, imbd rating and date of creation. This aplication was created using HTML 5, CSS and JavaScript and used 4 API's including GeoCode -for City/Country to Latitude/Longitude, OMDB- for Movie details, YouTube- for Movie Trailer from YouTube and Google Map- for showing Country in Google Map.
             </p>
-            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/The-Dev-Society">Github Repo</a>
+            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/The-Dev-Society"
+           onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+           onMouseOut={e => e.currentTarget.style.opacity = 1} >Github Repo</a>
           </section>
 
       <section class="box">
@@ -49,7 +53,9 @@ export default function Portfolio() {
             <p>
               This was a group project was a music streaming website, allowing users to create personal playlists, listen to songs and comment on public playlists. It was created using multiple technologies including Node.js, Express.js, Howler.js, bcrypt, Sequelize, dotenv, MySQL, Heroku, Handlebars Engine, CSS, JavaScript, SVGator and Canva.
             </p>
-            <a style={{ color: '#b62075' }}href="https://github.com/percivalho/Front-End-Society">Github Repo</a>
+            <a style={{ color: '#b62075' }}href="https://github.com/percivalho/Front-End-Society"
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}>Github Repo</a>
           </section>
 
           <section class="box">
@@ -62,7 +68,9 @@ export default function Portfolio() {
             <p>
               This project is a code refactor to support a marketing agency website. The website contains information about Search Engine Optimisation, Online Reputation Management, Social Media Marketing, Lead Generation, Brand Awareness and Cost Management. It contains header, navigation, aside, section, figure, article and footer elements; which are styled in CSS. Within this code refactor I updated the title, fixed a link, replaced repetitive div tags with semantic elements, added alternative text descriptions to images and updated the CSS acordingly. As a result, this made the website more modern and suitible for HTML 5, more accessible for disabled users, improved funtionality and supported search engine optimisation.
             </p>
-            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-1-code-refactor-challenge">Github Repo</a>
+            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-1-code-refactor-challenge"
+           onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+           onMouseOut={e => e.currentTarget.style.opacity = 1} >Github Repo</a>
           </section>
 
           <section class="box">
@@ -75,7 +83,9 @@ export default function Portfolio() {
             <p>
             The Weather Dashboard webpage has been created to support traveler's effectively plan their trips. This application has been created using html, JavaScript, CSS and API's. API stands for Application Programming Interface, and allows sharing of data, in this case api's were used to request data about the weather. The desired data was then chosen and displayed on the webpage using JavaScript. They will also see place holder text. When the user types a location in the search bar and clicks the search button below, they will see the name of the city, current temperature, wind speed, humidity level and percentage of clouds in that location. An icon will also appear clearly displaying the type of weather so that it is much easier for readers to see and is more inclusive for those who struggle with reading. All of this data is retrived using a weather API.
             </p>
-            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/Server-Side-APIs-Weather-Dashboard">Github Repo</a>
+            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/Server-Side-APIs-Weather-Dashboard"
+           onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+           onMouseOut={e => e.currentTarget.style.opacity = 1} >Github Repo</a>
           </section>
 
           <section class="box">
@@ -88,7 +98,9 @@ export default function Portfolio() {
             <p>
             Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels! This project was to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site has been built from scratch and deployed to Heroku. This app will follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
             </p>
-            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/MVCTech-Blog">Github Repo</a>
+            <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/MVCTech-Blog"
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}>Github Repo</a>
           </section>
     </div>
   );
