@@ -1,19 +1,21 @@
 import React from 'react';
-import { jsPDF } from 'jspdf';
+// import { jsPDF } from 'jspdf';
+import CV from "../../Files/discord cv.pdf";
 
-function Resume() {
-  const handleDownload = () => {
-    const doc = new jsPDF();
-    doc.text('My Resume to be added to when complete...', 10, 10);
-    doc.save('my_resume.pdf');
-  };
+// function Resume() {
+//   const handleDownload = () => {
+//     const doc = new jsPDF();
+//     doc.text('My Resume to be added to when complete...', 10, 10);
+//     doc.save('my_resume.pdf');
+//   };
 
   return (
     <div>
       <h1 style={{ color: '#b62075' }}>Resume Page</h1>
-      <button onClick={handleDownload}style={{ background: '#b62075', border: 'none',}}
+      <a href = {CV} download={CV}>Resume</a>
+      {/* <button onClick={handleDownload}style={{ background: '#b62075', border: 'none',}}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.7}
-                    onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">Download Resume</button>
+                    onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">Download Resume</button> */}
       <ul style={{ color: '#b62075' }}>
         <li>HTML and CSS</li>
         <li>Git</li>
