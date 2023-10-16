@@ -14,9 +14,9 @@ function Resume() {
     <div>
       <h1 style={{ color: '#b62075' }}>Resume Page</h1>
       <a href = {CV} download={CV}>
-      <img class= "PDF" alt="PDF" src={PDF}
+      {/* <img class= "PDF" alt="PDF" src={PDF} style={{width: "5px"}}
                 onMouseOver={e => e.currentTarget.style.opacity = 0.3}
-                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>Resume</a>
+  onMouseOut={e => e.currentTarget.style.opacity = 1}></img>*/}Resume</a>
       {/* <button onClick={handleDownload}style={{ background: '#b62075', border: 'none',}}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.7}
                     onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">Download Resume</button> */}
