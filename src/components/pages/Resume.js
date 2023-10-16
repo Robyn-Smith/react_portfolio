@@ -2,7 +2,7 @@ import React from 'react';
 // import { jsPDF } from 'jspdf';
 import CV from "../../Files/discord cv.pdf";
 
-// function Resume() {
+function Resume() {
 //   const handleDownload = () => {
 //     const doc = new jsPDF();
 //     doc.text('My Resume to be added to when complete...', 10, 10);
