@@ -1,8 +1,27 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
     const formData = { userName: "", userEmail: "", userMessage: "" };
-
+const checkData = () => {
+        if (!(data.userName || data.userEmail || data.userMessage)) return;
+    
+        const re = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+    
+        if (!data.userName) {
+          return false
+        }
+        if (!data.userEmail) {
+          return false
+        } else if (!re.test(data.userEmail)) {
+          return false
+        }
+        if (!data.userMessage) {
+          return false
+        }
+        return true;
+      };
+    
     // this sets two state variables for firstName and lastName using 'useState'
     const [data, setData] = useState(formData);
     const handleInputChange = (e) => {
@@ -11,21 +30,39 @@ function Contact() {
 
         setData({ ...data, [id]: value });
     };
-    const handleFormSubmit = (e) => {
-        // preventing the default behaviour so the page does not refresh and loose data given 
-        e.preventDefault();
+    // const handleFormSubmit = (e) => {
+    //     // preventing the default behaviour so the page does not refresh and loose data given 
+    //     e.preventDefault();
 
-        // alert telling the user the message was succesful and thanking them by their name
-        alert(`Message was successfully sent, thank you ${data.userName}`);
-        setData(formData);
-    };
+    //     // alert telling the user the message was succesful and thanking them by their name
+    //     alert(`Message was successfully sent, thank you ${data.userName}`);
+    //     setData(formData);
+    // };
+    const sendEmail = (e) => {
+        e.preventDefault();
+        if (!checkData()) return;
+        emailjs.send("service_l7c0dij", "template_imlmf39", data, "f5CqktT1qR4ah_0Pg").then( async (result) => {
+            setData((prevState) => ({
+                ...prevState,
+                userName:"",
+                userEmail:"",
+                userMessage:","
+            }));
+            e.target.reset();
+            alert(`Message was successfully sent, thank you ${data.userName}`);
+        },
+        (error) => {
+            console.log(error.text);
+        });
+    
+    }
     return (
     <div>
       <h1 style={{ color: '#b62075' }}>Contact Page</h1>
       <p>
         I am available on multiple social media sites including facebook, github and linked in. If you would like to discover more about me or view these please click on the icons in the footer. If you would like to message me directly right now please fill in the form below:
       </p>
-      <form onSubmit={handleFormSubmit}>
+      <form onSubmit={sendEmail}>
                    <div className="form-group">
                        <label htmlFor="exampleFormControlInput1">Name</label>
                        <input

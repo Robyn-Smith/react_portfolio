@@ -82,6 +82,16 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  /* text-decoration: none; */
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li{
+  list-style: none;
 }
 
 @media only screen and (max-width:767px)  {

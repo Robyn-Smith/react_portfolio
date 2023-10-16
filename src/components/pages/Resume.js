@@ -1,6 +1,7 @@
 import React from 'react';
 // import { jsPDF } from 'jspdf';
 import CV from "../../Files/discord cv.pdf";
+import PDF from "../../assets/file.png";
 
 function Resume() {
 //   const handleDownload = () => {
@@ -12,11 +13,15 @@ function Resume() {
   return (
     <div>
       <h1 style={{ color: '#b62075' }}>Resume Page</h1>
-      <a href = {CV} download={CV}>Resume</a>
+      <a href = {CV} download={CV}>
+      <img class= "PDF" alt="PDF" src={PDF}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>Resume</a>
       {/* <button onClick={handleDownload}style={{ background: '#b62075', border: 'none',}}
                     onMouseOver={e => e.currentTarget.style.opacity = 0.7}
                     onMouseOut={e => e.currentTarget.style.opacity = 1} type="submit" className="btn btn-primary mb-2">Download Resume</button> */}
-      <ul style={{ color: '#b62075' }}>
+      <p>I have just completed the Full Stack Coding Bootcamp course, with University of Birmingham. We undertook a number of assignments and group projects which included code refactoring, front end design, back-end development, databases and web applications, using the following technologies:</p>
+      <ul style={{ color: '#b62075', display:'grid', gridTemplateColumns:'50% 50%', justifyContent:'center', alignItems:'center', justifyItems:'center'}}>
         <li>HTML and CSS</li>
         <li>Git</li>
         <li>JavaScript</li>
