@@ -1,6 +1,6 @@
 import React from 'react';
 // import { jsPDF } from 'jspdf';
-import CV from "../../Files/discord cv.pdf";
+import CV from "../../Files/PortfolioCV.pdf";
 import PDF from "../../assets/file.png";
 
 function Resume() {

@@ -1,11 +1,16 @@
 import React from 'react';
 import profilepic from "../../assets/wedding-robyn.png";
+import CV from "../../Files/PortfolioCV.pdf";
 
 export default function About() {
   return (
     <div>
       <h1 style={{ color: '#b62075' }}>About Me</h1>
       <img class= "profilepic" alt="Picture of Robyn" src={profilepic}></img>
+      <a href = {CV} download={CV}>
+      {/* <img class= "PDF" alt="PDF" src={PDF} style={{width: "5px"}}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+  onMouseOut={e => e.currentTarget.style.opacity = 1}></img>*/}Resume</a>
       <p>
       A career in coding is the right choice for me because I enjoy problem solving, creativity 
       and critical thinking. Having recently completed my degree in Integrated Working with Children 

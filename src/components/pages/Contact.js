@@ -60,7 +60,7 @@ const checkData = () => {
     <div>
       <h1 style={{ color: '#b62075' }}>Contact Page</h1>
       <p>
-        I am available on multiple social media sites including facebook, github and linked in. If you would like to discover more about me or view these please click on the icons in the footer. If you would like to message me directly right now please fill in the form below:
+        I am available on multiple social media sites including github and linked in. If you would like to discover more about me or view these please click on the icons in the footer. If you would like to message me directly right now please fill in the form below:
       </p>
       <form onSubmit={sendEmail}>
                    <div className="form-group">

@@ -10,8 +10,28 @@ export default function Portfolio() {
   return (
     <div>
       <h1 style={{ color: '#b62075' }}>Portfolio Page</h1>
-      <p>
-        During my bootcamp full stack development course I completed multiple projects. This supported my knowledge, gave me experience and supported my confidence in coding. Please click the images below to view my projects.
+      <p>I have just completed the Full Stack Coding Bootcamp course, with University of Birmingham. We undertook a number of assignments and group projects which included code refactoring, front end design, back-end development, databases and web applications, using the following technologies:
+HTML and CSS
+Git
+JavaScript
+Third-party APIs (jQuery, Bootstrap)
+Server-side APIs, AJAX, and JSON
+Node.js
+Object-oriented programming (OOP)
+Express.js servers
+MySQL
+Object-relational mapper, or ORM (Sequelize)
+Model-view-controller (MVC) framework (Handlebars.js)
+Unit testing
+Agile methodology
+Heroku
+Computer science
+MongoDB and NoSQL
+Progressive web apps (PWAs)
+React
+MERN
+Portfolios. 
+Please click the images below to view my projects.
       </p>
       <article style={{display:"flex", flexWrap: "wrap", justifyContent:"space-around"}}>
         <section class="box">
