@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import backgroundImage from "../../assets/6197867.jpg"
 
 function Contact() {
     const formData = { userName: "", userEmail: "", userMessage: "" };
@@ -57,7 +58,11 @@ const checkData = () => {
     
     }
     return (
-    <div>
+    <div style={{
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',}}>
       <h1 style={{ color: '#b62075' }}>Contact Page</h1>
       <p>
         I am available on multiple social media sites including github and linked in. If you would like to discover more about me or view these please click on the icons in the footer. If you would like to message me directly right now please fill in the form below:
