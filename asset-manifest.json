@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.6b4243c2.css",
-    "main.js": "/react_portfolio/static/js/main.6f2ebbfb.js",
+    "main.css": "/react_portfolio/static/css/main.be4c1af0.css",
+    "main.js": "/react_portfolio/static/js/main.2a0bcf6b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/PortfolioCV.pdf": "/react_portfolio/static/media/PortfolioCV.d1acd14f6209aa62bb2d.pdf",
     "static/media/quiz.png": "/react_portfolio/static/media/quiz.a5f0b755ffe4f6268be4.png",
@@ -15,12 +15,12 @@
     "static/media/linkedin-icon-logo-png-transparent.png": "/react_portfolio/static/media/linkedin-icon-logo-png-transparent.b1bebb391a157454d569.png",
     "static/media/github-icon-logo-png-transparent.png": "/react_portfolio/static/media/github-icon-logo-png-transparent.bc45ee99ee31457ba80a.png",
     "index.html": "/react_portfolio/index.html",
-    "main.6b4243c2.css.map": "/react_portfolio/static/css/main.6b4243c2.css.map",
-    "main.6f2ebbfb.js.map": "/react_portfolio/static/js/main.6f2ebbfb.js.map",
+    "main.be4c1af0.css.map": "/react_portfolio/static/css/main.be4c1af0.css.map",
+    "main.2a0bcf6b.js.map": "/react_portfolio/static/js/main.2a0bcf6b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b4243c2.css",
-    "static/js/main.6f2ebbfb.js"
+    "static/css/main.be4c1af0.css",
+    "static/js/main.2a0bcf6b.js"
   ]
 }
