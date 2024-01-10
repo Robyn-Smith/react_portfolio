@@ -11,7 +11,7 @@ export default function About() {
       {/* <img class= "PDF" alt="PDF" src={PDF} style={{width: "5px"}}
                 onMouseOver={e => e.currentTarget.style.opacity = 0.3}
   onMouseOut={e => e.currentTarget.style.opacity = 1}></img>*/}Resume</a>
-      <p>
+      <p style={{backgroundImage:'linear-gradient(60deg, rgba(241, 98, 16, 0.174), white, rgba(208, 5, 130, 0.215))'}}>
       A career in coding is the right choice for me because I enjoy problem solving, creativity 
       and critical thinking. Having recently completed my degree in Integrated Working with Children 
       and Families, including a number of placements and paid employment, I decided to change career 

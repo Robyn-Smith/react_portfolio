@@ -103,4 +103,7 @@ li{
   .box{
     width:95%;
   }
+  header{
+    text-align: center;
+  }
 }
