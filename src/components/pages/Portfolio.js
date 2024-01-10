@@ -5,15 +5,10 @@ import picturesque from "../../assets/picturesque.png";
 import quiz from "../../assets/quiz.png";
 import weatherdash from "../../assets/weatherdash.png";
 import techblog from "../../assets/techblog.png";
-import backgroundImage from "../../assets/6197867.jpg";
 
 export default function Portfolio() {
   return (
-    <div style={{
-      backgroundImage: `url(${backgroundImage})`,
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',}}>
+    <div>
       <h1 style={{ color: '#b62075' }}>Portfolio Page</h1>
       <p>I have just completed the Full Stack Coding Bootcamp course, with University of Birmingham. We undertook a number of assignments and group projects which included code refactoring, front end design, back-end development, databases and web applications, using the following technologies: HTML and CSS, Git, JavaScript, Third-party APIs (jQuery, Bootstrap), Server-side APIs, AJAX, and JSON, Node.js, Object-oriented programming (OOP), Express.js servers, MySQL, Object-relational mapper, or ORM (Sequelize), Model-view-controller (MVC) framework (Handlebars.js), Unit testing, Agile methodology, Heroku, Computer science, MongoDB and NoSQL, Progressive web apps (PWAs), React, MERN, Portfolios. Please click the images below to view my projects.
       </p>

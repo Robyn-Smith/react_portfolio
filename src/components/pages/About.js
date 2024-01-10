@@ -1,15 +1,10 @@
 import React from 'react';
 import profilepic from "../../assets/wedding-robyn.png";
 import CV from "../../Files/PortfolioCV.pdf";
-import backgroundImage from "../../assets/6197867.jpg"
 
 export default function About() {
   return (
-    <div style={{
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-backgroundSize: 'cover',}}>
+    <div>
       <h1 style={{ color: '#b62075' }}>About Me</h1>
       <img class= "profilepic" alt="Picture of Robyn" src={profilepic}></img>
       <a href = {CV} download={CV}>

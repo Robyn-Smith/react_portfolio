@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
-import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './Header';
 import Footer from './Footer';
+import backgroundImage from "../assets/6197867.jpg"
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -17,16 +17,17 @@ export default function MainContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
     return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div class= 'background' style={{
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',}}>
       <Header/>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
