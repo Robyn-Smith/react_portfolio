@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat&family=Poppins&display=swap');
 
 body {
   margin: 0;
@@ -35,12 +35,22 @@ h1{
   font-family: 'Lora', serif;
 }
 
+h2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Lora', serif;
+}
+
 p{
-  color: #b62075;
+  color: #ac1f6f;
   padding-left: 5%;
   padding-right: 5%;
   text-align: 'center';
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 form{
@@ -56,8 +66,6 @@ form{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .box {
@@ -69,6 +77,7 @@ form{
   margin: 20px;
   height: fit-content;
   background-color: rgba(255, 255, 255, 0.53);
+  background-image: linear-gradient(60deg, rgba(241, 98, 16, 0.174), white, rgba(208, 5, 130, 0.215));
 }
 
 h3 {
@@ -99,6 +108,38 @@ li{
   list-style: none;
 }
 
+.resume {
+  color:pink;
+  background-color: #b62075;
+  /* align-items: center;
+  margin: auto; */
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.resume:hover {
+  color: white;
+  background-color: pink;
+}
+
+
+
+/* h5{color: #ca256162;
+color: #b6205762;
+color: #ca254b62;
+font-weight: bold;
+} */
+
+
 @media only screen and (max-width:767px)  {
   .box{
     width:95%;
@@ -106,4 +147,16 @@ li{
   header{
     text-align: center;
   }
+  .profilepic{
+    width:50%;
+    height:50%;
+  }
+  .resume{
+    margin-left:35%;
+    margin-right: 35%;
+  }
+  /* .aboutpage
+  {
+    border-radius: 5px;
+  } */
 }

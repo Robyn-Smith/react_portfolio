@@ -8,7 +8,7 @@ function Header({ currentPage }) {
         justifyContent: 'center',
         alignItems: 'center',
         background: '#b6207562',}}>
-        <h1 style={{ color: 'white',}}>Hi I'm Robyn Smith and this is my Portfolio</h1>
+        <h1 style={{ color: 'white'}}>Robyn Smith</h1>
         <p>
           I am a hardworking, conscientious first class graduate looking for a career in coding.
         </p>

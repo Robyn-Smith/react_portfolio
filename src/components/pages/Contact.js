@@ -95,8 +95,9 @@ const checkData = () => {
                             value={data.userMessage}
                         ></textarea>
                     </div>
-                    <button style={{ background: '#b62075', border: 'none', 
+                    <button style={{ background: '#b62075', color: 'white', border: 'none', 
                     margin: 'auto',
+                    marginTop: '10px',
                     alignItems: 'center',
                     display: 'flex',
                     flexWrap: 'wrap',
