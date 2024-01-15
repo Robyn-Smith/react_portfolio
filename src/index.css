@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lora:ital@1&family=Montserrat&family=Poppins&display=swap');
 
 body {
   margin: 0;
@@ -32,7 +32,7 @@ h1{
   flex-wrap: wrap;
   justify-content: space-evenly;
   color: #b62075;
-  font-family: 'Lora', serif;
+  font-family: 'Lora', 'Caveat', 'cursive';
 }
 
 h2{
@@ -41,7 +41,7 @@ h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-family: 'Lora', serif;
+  font-family: 'Lora', 'Caveat', 'cursive';
 }
 
 p{
@@ -90,7 +90,7 @@ h3 {
 }
 
 a{
-  font-family: 'Lora', serif;
+  font-family: 'Lora', 'Caveat', 'cursive';
   text-align: center;
   justify-content: center;
   display: flex;
