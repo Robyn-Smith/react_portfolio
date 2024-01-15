@@ -15,25 +15,7 @@ export default function Portfolio() {
       <p>I have just completed the Full Stack Coding Bootcamp course, with University of Birmingham. We undertook a number of assignments and group projects which included code refactoring, front end design, back-end development, databases and web applications, using the following technologies: <span style ={{fontWeight: "bold"}}>HTML</span> and <span style ={{fontWeight: "bold"}}>CSS</span>, <span style ={{fontWeight: "bold"}}>Git</span>, <span style ={{fontWeight: "bold"}}>JavaScript</span>, Third-party APIs (jQuery, Bootstrap), Server-side APIs, AJAX, and JSON, Node.js, Object-oriented programming (OOP), Express.js servers, MySQL, Object-relational mapper, or ORM (Sequelize), Model-view-controller (MVC) framework (Handlebars.js), Unit testing, Agile methodology, Heroku, Computer science, MongoDB and NoSQL, Progressive web apps (PWAs), React, MERN, Portfolios. Please click the images below to view my projects.
       </p>
       <article style={{display:"flex", flexWrap: "wrap", justifyContent:"space-around"}}>
-        <section class="box">
-              <h3 style={{ color: '#b62075' }}>Web API: Quiz</h3>
-              <a href="https://robyn-smith.github.io/week-4-Web-API-Quiz/">
-                <img class= "projectpic" alt="web API quiz" src={quiz}
-                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
-                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
-              </a>
-              <p>
-                This project used <span style ={{fontWeight: "bold"}}>HTML</span>, <span style ={{fontWeight: "bold"}}>CSS</span> and <span style={{fontWeight: 'bold'}}>JavaScript</span> to create a web <span style={{fontWeight: 'bold'}}>API</span> quiz. The quiz supports the users knowlege of coding by challenging the user to answer the multiple choice options correctly. The quiz uses <span style={{fontWeight: 'bold'}}>audio</span> files and messages to tell the user if they have answers right or wrong. The timer counts down at the top of the page limiting the users time to answer the question, when the user answers wrong the timer decrements even quicker. Finally, the quiz uses <span style={{fontWeight: 'bold'}}>local storage</span> to remember usernames and their highscores in the quiz.
-              </p>
-              <a href="https://github.com/Robyn-Smith/week-4-Web-API-Quiz"><img
-                src={github}
-                alt="github"
-                style={{width: 40, alignItems: "center"}}
-                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
-                onMouseOut={e => e.currentTarget.style.opacity = 1}/>
-                </a>
-          </section>
-
+        
         <section class="box">
               <h3 style={{ color: '#b62075', textAlign: 'center' }}>Group Project 1: Picturesque</h3>
               <a href="https://robyn-smith.github.io/The-Dev-Society/">
@@ -45,12 +27,20 @@ export default function Portfolio() {
               This was a group project was a movie information website, allowing users to search for films, create personal watchlists, watch trailers and learn more about films including actors that star in them, plot, place of creation, genre, imbd rating and date of creation. This aplication was created using <span style={{fontWeight: 'bold'}}>HTML 5</span>, <span style={{fontWeight: 'bold'}}>CSS</span> and <span style={{fontWeight: 'bold'}}>JavaScript</span> and used 4 <span style={{fontWeight: 'bold'}}>API</span>'s including <span style={{fontWeight: 'bold'}}>GeoCode</span> -for City/Country to Latitude/Longitude, <span style={{fontWeight: 'bold'}}>OMDB</span>- for Movie details, <span style={{fontWeight: 'bold'}}>YouTube</span>- for Movie Trailer from YouTube and <span style={{fontWeight: 'bold'}}>Google Maps</span>- for showing Country in Google Maps. </p>
               <p>I was voted as the <span style={{fontWeight: 'bold'}}>leader</span> by the group at the beggining of the project; I mainly worked on the initial idea of the project, <span style={{fontWeight:'bold'}}>front-end</span> design, <span style={{fontWeight: 'bold'}}>branding, wireframes, responsive CSS, organising/supporting</span> the team, <span style={{fontWeight:'bold'}}>debugging, deligating tasks, communication</span> and the <span style ={{fontWeight:'bold'}}></span>presentation. This project was publicly presented on multiple occasions (during class as well as networking events) and <span style={{fontWeight: 'bold'}}>won the award for the best UX/UI</span> in the class, at UoB. If you would like to view the accompanying presentation, please click the google docs icon below.
               </p>
+              <div style={{display: 'flex', flexDirection: "row", justifyContent: 'center', padding: "1%",}}>
+              <a style={{ color: '#b62075' }}href="https://docs.google.com/presentation/d/11XLxTB6EjL1nEJOjQwag1xBMJpIakJwKihd1UHzP_pw/edit?usp=sharing"><img
+              src={googledocs}
+              alt="google docs"
+              style={{width: 40, alignItems: "center"}}
+              onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+              onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
               <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/The-Dev-Society"><img
             src={github}
             alt="github"
             style={{width: 40, alignItems: "center"}}
             onMouseOver={e => e.currentTarget.style.opacity = 0.3}
             onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+              </div>
             </section>
 
         <section class="box">
@@ -62,8 +52,9 @@ export default function Portfolio() {
               </a>
               <p>
                 This was a <span style={{fontWeight: 'bold'}}>group project</span> was a music streaming website, allowing users to create personal playlists, listen to songs and comment on public playlists. It was created using multiple technologies including <span style={{fontWeight: 'bold'}}>Node.js</span>, <span style={{fontWeight: 'bold'}}>Express.js</span>, <span style={{fontWeight: 'bold'}}>Howler.js</span>, <span style={{fontWeight: 'bold'}}>bcrypt</span>, <span style={{fontWeight: 'bold'}}>Sequelize</span>, <span style={{fontWeight: 'bold'}}>dotenv</span>, <span style={{fontWeight: 'bold'}}>MySQL</span>, <span style={{fontWeight: 'bold'}}>Heroku</span>, <span style={{fontWeight: 'bold'}}>Handlebars Engine</span>, <span style={{fontWeight: 'bold'}}>CSS</span>, <span style={{fontWeight: 'bold'}}>JavaScript</span>, <span style={{fontWeight: 'bold'}}>SVGator</span> and <span style={{fontWeight: 'bold'}}>Canva</span>. </p>
-                <p>I took a <span style={{fontWeight: 'bold'}}>leadership</span> role during this project and mainly worked on the <span style = {{fontWeight: 'bold'}}>front-end</span> design, branding, initial ideas, <span style={{fontWeight: 'bold'}}>organising/supporting</span> the team, <span style={{fontWeight: 'bold'}}>debugging</span> and the <span style={{fontWeight: 'bold'}}>presentation</span>. This project was also publicly presented on multiple occasions (during class as well as networking events) and <span style={{fontWeight: 'bold'}}>won the award for the best UX/UI</span> in the class, at UoB. If you would like to view the accompanying presentation, please click the google docs icon below.
+              <p>I took a <span style={{fontWeight: 'bold'}}>leadership</span> role during this project and mainly worked on the <span style = {{fontWeight: 'bold'}}>front-end</span> design, branding, initial ideas, <span style={{fontWeight: 'bold'}}>organising/supporting</span> the team, <span style={{fontWeight: 'bold'}}>debugging</span> and the <span style={{fontWeight: 'bold'}}>presentation</span>. This project was also publicly presented on multiple occasions (during class as well as networking events) and <span style={{fontWeight: 'bold'}}>won the award for the best UX/UI</span> in the class, at UoB. If you would like to view the accompanying presentation, please click the google docs icon below.
               </p>
+              <div style={{display: 'flex', flexDirection: "row", justifyContent: 'center', padding: "1%",}}>
               <a style={{ color: '#b62075' }}href="https://docs.google.com/presentation/d/14AXvSrRKnfqGTVTqSC00aIbhOJxCQrDxcoHi6fWudSM/edit?usp=sharing"><img
               src={googledocs}
               alt="google docs"
@@ -76,8 +67,28 @@ export default function Portfolio() {
               style={{width: 40, alignItems: "center"}}
               onMouseOver={e => e.currentTarget.style.opacity = 0.3}
               onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+              </div>
             </section>
-        
+
+            <section class="box">
+                  <h3 style={{ color: '#b62075' }}>Web API: Quiz</h3>
+                  <a href="https://robyn-smith.github.io/week-4-Web-API-Quiz/">
+                    <img class= "projectpic" alt="web API quiz" src={quiz}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+                  </a>
+                  <p>
+                    This project used <span style ={{fontWeight: "bold"}}>HTML</span>, <span style ={{fontWeight: "bold"}}>CSS</span> and <span style={{fontWeight: 'bold'}}>JavaScript</span> to create a web <span style={{fontWeight: 'bold'}}>API</span> quiz. The quiz supports the users knowlege of coding by challenging the user to answer the multiple choice options correctly. The quiz uses <span style={{fontWeight: 'bold'}}>audio</span> files and messages to tell the user if they have answers right or wrong. The timer counts down at the top of the page limiting the users time to answer the question, when the user answers wrong the timer decrements even quicker. Finally, the quiz uses <span style={{fontWeight: 'bold'}}>local storage</span> to remember usernames and their highscores in the quiz.
+                  </p>
+                  <a href="https://github.com/Robyn-Smith/week-4-Web-API-Quiz"><img
+                    src={github}
+                    alt="github"
+                    style={{width: 40, alignItems: "center"}}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}/>
+                    </a>
+              </section>
+
             <section class="box">
               <h3 style={{ color: '#b62075', textAlign: 'center'}}>My first project: Code Refactor </h3>
               <a href="https://robyn-smith.github.io/week-1-code-refactor-challenge/">
