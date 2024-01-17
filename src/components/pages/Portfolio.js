@@ -18,6 +18,7 @@ import employee from '../../assets/employee.png';
 import socialAPI from '../../assets/socialAPI.png';
 import notetaker from '../../assets/notetaker.png';
 import jate from '../../assets/jate.png';
+import youtube from '../../assets/youtube.png'
 
 export default function Portfolio() {
   return (
@@ -77,6 +78,12 @@ export default function Portfolio() {
               <a style={{ color: '#b62075' }}href="https://github.com/percivalho/Front-End-Society"><img
               src={github}
               alt="github"
+              style={{width: 40, alignItems: "center"}}
+              onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+              onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+              <a style={{ color: '#b62075' }}href="https://www.youtube.com/watch?v=lLCOLUDBSGY"><img
+              src={youtube}
+              alt="youtube"
               style={{width: 40, alignItems: "center"}}
               onMouseOver={e => e.currentTarget.style.opacity = 0.3}
               onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
