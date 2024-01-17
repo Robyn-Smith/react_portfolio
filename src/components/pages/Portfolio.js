@@ -9,6 +9,8 @@ import github from '../../assets/github-icon-logo-png-transparent.png';
 import googledocs from '../../assets/kisspng-google-docs-google-slides-computer-icons-presentat-presentation-5ac6bf4b4c8b29.2069299915229745393135.png';
 import BlissfulBeg from '../../assets/Blissful.png';
 import week2 from '../../assets/week2.png';
+import week3 from '../../assets/week3.png';
+import workday from '../../assets/workday.png';
 
 export default function Portfolio() {
   return (
@@ -184,7 +186,7 @@ export default function Portfolio() {
                 onMouseOver={e => e.currentTarget.style.opacity = 0.3}
                 onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
               </a>
-              <p>This project was created from scratch using <span style={{fontWeight: 'bold'}}>HTML</span> and <span style={{fontWeight:'bold'}}>CSS</span> to create a fully <span style={{fontWeight:'bold'}}>responsive</span> portfolio displaying my work to perspective employers. This project supported the creation of the porfolio you are currently viewing. 
+              <p>This project was created from scratch using <span style={{fontWeight: 'bold'}}>HTML</span> and <span style={{fontWeight:'bold'}}>CSS</span> to create a fully <span style={{fontWeight:'bold'}}>responsive</span> portfolio displaying my work to perspective employers. This project supported the creation of the porfolio you are currently viewing. The website features include a profile picture of me and an 'About Me' section (displayed in the aside), a bold heading featuring my name (displayed in the header), images of my previous work with titles, descriptions and working links to the deployed websites (displayed in the article), working navigation links that direct the readers to the corresponding sections, a list contact details (displayed in the footer), different sized images, pleasing background colours/image, a responsive webpage layout that changes according to screen size or viewport, images containing <span style={{fontWeight:'bold'}}>alternative text</span>.
               </p>
               <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-2-portfolio.git"><img
             src={github}
@@ -194,6 +196,41 @@ export default function Portfolio() {
             onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
             </section>
             
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>My third project: Password Generator </h3>
+              <a href="https://robyn-smith.github.io/week-3-password-generator/">
+                <img class= "projectpic" alt="week 3 password generator" src={week3}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>This website generates passwords according to the user's preferences. It was created using <span style={{fontWeight:'bold'}}>HTML, JavaScript</span> and <span style={{fontWeight: 'bold'}}>CSS</span>. CSS and HTML starter code was given for this project, I completed the JavaScript to add the functionality to the site. When the user clicks the generate password button a series of prompts appear on the screen. The user can input how many characters long they would like their password, with a limit that this number must be between 8 and 128 characters. If the user selects a number that is not between 8 and 128, they will be alerted and the event stops. Should the user enter non numeric characters in this prompt they will also receive the same alert stating they must use numeric characters when entering a desired password length. When the user selects a desired password length within the range, they are asked whether or not they wish to include numbers, lowercase letters, uppercase letters or special characters, this is confirmed by clicking OK or cancel. If the user selects cancel for all character types they will be alerted and told they must include at least one type of character and the event stops; the word "undefined" will appear in the 'your secure password' box. Once the user has answered all prompts, with the length being between 8-128 characters and with at least one type of character selected, they are provided with a randomised password containing only characters they chose with their desired length. If the user is not satisfied with the password generated, they can start the process again by clicking the generate password button.
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-3-password-generator.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>Work Day Scheduler </h3>
+              <a href="https://robyn-smith.github.io/work-day-scheduler/">
+                <img class= "projectpic" alt="work day schedular" src={workday}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>
+              This project uses <span style={{fontWeight:'bold'}}>JavaScript, CSS</span> and <span style={{fontWeight:'bold'}}>HTML</span> code to create a helpful day schedule that can be used to plan and organise time. In this project <span style={{fontWeight:'bold'}}>jQuery</span> was used throughout and was especially fundamental to call the <span style={{fontWeight: 'bold'}}>dayjs API</span>; which retrieves the current date. The current date is displayed in the header so that the user is reminded what day they are planning for. The dayjs api was also used to compare the current time with the office times available for the user to plan for in order to see whether they are in the past, present or future. CSS styling was used to change the colour of each time block to indicate this. If the time of the event is in the past the block is grey with black text, if it is in present the block is red in colour with white text and if it is in the future it is displayed in green with white text. This supports user experience as they can clearly see not to plan for the past and how much time they have left in the day. The user enters their plans/events and routines into the day scheduler and if they wish to save these plans, they click the save button on the right. Once saved the user can refresh the page and their plans will still be visible as the events were saved in <span style={{fontWeight:'bold'}}>local storage</span>. If a user wishes to remove or edit their plans they can retype or remove their text in the input area and save their changes again. <span style={{fontWeight:'bold'}}>Bootstrap</span> was also used in the styling and creation of html elements. This website is also <span style={{fontWeight:'bold'}}>responsive</span>.
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/work-day-scheduler.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+
           </article>
     </div>
   );
