@@ -14,7 +14,10 @@ import workday from '../../assets/workday.png';
 import readmegen from '../../assets/readmegen.png';
 import SVGgen from '../../assets/SVGgen.png';
 import ecommerce from '../../assets/ecommerce.png';
-import employee from '../../assets/employee.png'
+import employee from '../../assets/employee.png';
+import socialAPI from '../../assets/socialAPI.png';
+import notetaker from '../../assets/notetaker.png';
+import jate from '../../assets/jate.png';
 
 export default function Portfolio() {
   return (
@@ -82,7 +85,7 @@ export default function Portfolio() {
 
             <section class="box">
               <h3 style={{ color: '#b62075', textAlign: 'center' }}>Group Project 3: Blissful Beginnings</h3>
-              <a href="https://github.com/AshtonJ7/blissful-beginnings.git">
+              <a href="https://drive.google.com/file/d/13tZKavJjh2WtWCiHw-4YqzFcUGp0zvI6/view?usp=drive_link">
                 <img class= "projectpic" alt="Blissful Beginnings" src={BlissfulBeg}
                 onMouseOver={e => e.currentTarget.style.opacity = 0.3}
                 onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
@@ -184,7 +187,7 @@ export default function Portfolio() {
 
             <section class="box">
               <h3 style={{ color: '#b62075', textAlign: 'center' }}>MVC: Tech Blog </h3>
-              <a href="https://github.com/Robyn-Smith/MVCTech-Blog">
+              <a href="https://www.youtube.com/watch?v=vON_kEqx5IM">
                 <img class= "projectpic" alt="Tech blog" src={techblog}
                       onMouseOver={e => e.currentTarget.style.opacity = 0.3}
                       onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
@@ -225,7 +228,7 @@ export default function Portfolio() {
                 onMouseOver={e => e.currentTarget.style.opacity = 0.3}
                 onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
               </a>
-              <p>This website generates passwords according to the user's preferences. It was created using <span style={{fontWeight:'bold'}}>HTML, JavaScript</span> and <span style={{fontWeight: 'bold'}}>CSS</span>. CSS and HTML starter code was given for this project, I completed the JavaScript to add the functionality to the site. When the user clicks the generate password button a series of prompts appear on the screen. The user can input how many characters long they would like their password, with a limit that this number must be between 8 and 128 characters. If the user selects a number that is not between 8 and 128, they will be alerted and the event stops. Should the user enter non numeric characters in this prompt they will also receive the same alert stating they must use numeric characters when entering a desired password length. When the user selects a desired password length within the range, they are asked whether or not they wish to include numbers, lowercase letters, uppercase letters or special characters, this is confirmed by clicking OK or cancel. If the user selects cancel for all character types they will be alerted and told they must include at least one type of character and the event stops; the word "undefined" will appear in the 'your secure password' box. Once the user has answered all prompts, with the length being between 8-128 characters and with at least one type of character selected, they are provided with a randomised password containing only characters they chose with their desired length. If the user is not satisfied with the password generated, they can start the process again by clicking the generate password button.
+              <p>This website generates passwords according to the user's preferences. It was created using <span style={{fontWeight:'bold'}}>HTML, JavaScript</span> and <span style={{fontWeight: 'bold'}}>CSS</span>. CSS and HTML starter code was given for this project, I completed the JavaScript to add the functionality to the site. When the user clicks the generate password button a series of prompts appear on the screen.
               </p>
               <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-3-password-generator.git"><img
             src={github}
@@ -301,6 +304,57 @@ export default function Portfolio() {
             onMouseOver={e => e.currentTarget.style.opacity = 0.3}
             onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
             </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center' }}>Social API</h3>
+              <a href="https://www.youtube.com/watch?v=kdA6gopW7AY">
+                <img class= "projectpic" alt="Social API" src={socialAPI}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>This API gives a social network web application functionality, allowing users to share their thoughts, react to friend's thoughts, and create a friend list. The API for my social network uses a NoSQL database so that the website can handle large amounts of unstructured data. Express.js was used for routing, and the Mongoose ODM models are synced to the MongoDB database. Seed data has not been added to this code, instead the user can enter their own data using Insomnia or Postman after installing the API. The user can then use the GET, POST, PUT and DELETE methods to retrieve, edit or remove formatted JSON data
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/socialApi.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+
+            <section class="box">
+                  <h3 style={{ color: '#b62075' }}>Note Taker</h3>
+                  <a href="https://www.youtube.com/watch?v=A8sK73erHcU">
+                    <img class= "projectpic" alt="Note taker" src={notetaker}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+                  </a>
+                  <p>This application allows the user to write and save notes, it was created using HTML, CSS and JavaScript. Starter CSS and HTML code was provided, I added the functionality using JavaScript. This is a useful application in createing to do lists, organising routines and setting important reminders for any user. The application uses <span style={{fontWeight:'bold'}}>Express.js</span> back end to save and retrieve note data from a <span style={{fontWeight:'bold'}}>JSON</span> file.</p>
+                  <a href="https://github.com/Robyn-Smith/Note-Taker.git"><img
+                    src={github}
+                    alt="github"
+                    style={{width: 40, alignItems: "center"}}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}/>
+                    </a>
+              </section>
+
+              <section class="box">
+                  <h3 style={{ color: '#b62075' }}>JATE: Text Editor</h3>
+                  <a href="https://clipchamp.com/watch/v2rq70LWFIO">
+                    <img class= "projectpic" alt="JATE" src={jate}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+                  </a>
+                  <p>This application is a text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, this application features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. To build this text editor, an existing application and code implementing methods for getting and storing data to an IndexedDB database were provided. The package called idb was used in this application, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.</p>
+                  <a href="https://github.com/Robyn-Smith/textEditor.git"><img
+                    src={github}
+                    alt="github"
+                    style={{width: 40, alignItems: "center"}}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}/>
+                    </a>
+              </section>
 
           </article>
     </div>
