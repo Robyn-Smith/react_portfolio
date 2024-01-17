@@ -11,6 +11,10 @@ import BlissfulBeg from '../../assets/Blissful.png';
 import week2 from '../../assets/week2.png';
 import week3 from '../../assets/week3.png';
 import workday from '../../assets/workday.png';
+import readmegen from '../../assets/readmegen.png';
+import SVGgen from '../../assets/SVGgen.png';
+import ecommerce from '../../assets/ecommerce.png';
+import employee from '../../assets/employee.png'
 
 export default function Portfolio() {
   return (
@@ -103,6 +107,24 @@ export default function Portfolio() {
             onMouseOver={e => e.currentTarget.style.opacity = 0.3}
             onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
               </div>
+            </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>Work Day Scheduler </h3>
+              <a href="https://robyn-smith.github.io/work-day-scheduler/">
+              <img class= "projectpic" alt="work day schedular" src={workday}
+                  onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                  onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>
+                This project uses <span style={{fontWeight:'bold'}}>JavaScript, CSS</span> and <span style={{fontWeight:'bold'}}>HTML</span> code to create a helpful day schedule that can be used to plan and organise time. In this project <span style={{fontWeight:'bold'}}>jQuery</span> was used throughout and was especially fundamental to call the <span style={{fontWeight: 'bold'}}>dayjs API</span>; which retrieves the current date. The current date is displayed in the header so that the user is reminded what day they are planning for. The dayjs api was also used to compare the current time with the office times available for the user to plan for in order to see whether they are in the past, present or future. CSS styling was used to change the colour of each time block to indicate this. If the time of the event is in the past the block is grey with black text, if it is in present the block is red in colour with white text and if it is in the future it is displayed in green with white text. This supports user experience as they can clearly see not to plan for the past and how much time they have left in the day. The user enters their plans/events and routines into the day scheduler and if they wish to save these plans, they click the save button on the right. Once saved the user can refresh the page and their plans will still be visible as the events were saved in <span style={{fontWeight:'bold'}}>local storage</span>. If a user wishes to remove or edit their plans they can retype or remove their text in the input area and save their changes again. <span style={{fontWeight:'bold'}}>Bootstrap</span> was also used in the styling and creation of html elements. This website is also <span style={{fontWeight:'bold'}}>responsive</span>.
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/work-day-scheduler.git"><img
+                  src={github}
+                  alt="github"
+                  style={{width: 40, alignItems: "center"}}
+                    onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                    onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
             </section>
 
             <section class="box">
@@ -214,16 +236,65 @@ export default function Portfolio() {
             </section>
 
             <section class="box">
-              <h3 style={{ color: '#b62075', textAlign: 'center'}}>Work Day Scheduler </h3>
-              <a href="https://robyn-smith.github.io/work-day-scheduler/">
-                <img class= "projectpic" alt="work day schedular" src={workday}
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>ReadMe Generator</h3>
+              <a href="https://youtu.be/HW0jhYswlcA">
+                <img class= "projectpic" alt="readme generator" src={readmegen}
                 onMouseOver={e => e.currentTarget.style.opacity = 0.3}
                 onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
               </a>
-              <p>
-              This project uses <span style={{fontWeight:'bold'}}>JavaScript, CSS</span> and <span style={{fontWeight:'bold'}}>HTML</span> code to create a helpful day schedule that can be used to plan and organise time. In this project <span style={{fontWeight:'bold'}}>jQuery</span> was used throughout and was especially fundamental to call the <span style={{fontWeight: 'bold'}}>dayjs API</span>; which retrieves the current date. The current date is displayed in the header so that the user is reminded what day they are planning for. The dayjs api was also used to compare the current time with the office times available for the user to plan for in order to see whether they are in the past, present or future. CSS styling was used to change the colour of each time block to indicate this. If the time of the event is in the past the block is grey with black text, if it is in present the block is red in colour with white text and if it is in the future it is displayed in green with white text. This supports user experience as they can clearly see not to plan for the past and how much time they have left in the day. The user enters their plans/events and routines into the day scheduler and if they wish to save these plans, they click the save button on the right. Once saved the user can refresh the page and their plans will still be visible as the events were saved in <span style={{fontWeight:'bold'}}>local storage</span>. If a user wishes to remove or edit their plans they can retype or remove their text in the input area and save their changes again. <span style={{fontWeight:'bold'}}>Bootstrap</span> was also used in the styling and creation of html elements. This website is also <span style={{fontWeight:'bold'}}>responsive</span>.
+              <p>This project was created with <span style={{fontWeight:'bold'}}>JavaScript</span> and allows users to create readme files with ease.
               </p>
-              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/work-day-scheduler.git"><img
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/readme-Generator.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>SVG Logo Generator</h3>
+              <a href="https://www.youtube.com/watch?v=ELwwwJ54h0c">
+                <img class= "projectpic" alt="SVG Logo generator" src={SVGgen}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>This code uses <span style={{fontWeight:'bold'}}>JavaScript</span> and <span style={{fontWeight:'bold'}}>Node.js</span> to generate simple SVG logos; this saves the user from having to pay for designs. The user is asked four questions in the command-line, these questions are used to gain information from the user about what they would like their own logo to contain and their desired design. The user must input their answers by typing in the terminal. Additionally, the accuracy of this code can be tested with JavaScript code I have written, I also used used the node extension <span style={{fontWeight:'bold'}}>jest</span>.
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/SVG-logo-generator.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>ORM: E-Commerce Back-End</h3>
+              <a href="https://www.youtube.com/watch?v=7f1dmJ7jZ0Y">
+                <img class= "projectpic" alt="ORM: E-Commerce Back-End" src={ecommerce}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>This project involved modifying code to build the back end for an e-commerce site. The working <span style={{fontWeight:'bold'}}>Express.js API</span> was configured to use <span style={{fontWeight:'bold'}}>sequelize</span> to interact with a <span style={{fontWeight:'bold'}}>MySQL database</span>. Once the server is started and the Sequelize models are synced to the MySQL database and the code is run and database is seeded, in the terminal, the user can use <span style={{fontWeight:'bold'}}>Postman</span> or <span style={{fontWeight:'bold'}}>insomnia</span> to use the GET method to read and recieve the data, the POST method to create data, the PUT method to update data and the DELETE method to remove data. The user can do this by entering  http://localhost:3001 and add the routes '/categories' '/products' '/tags' in accordance with what data they would like to see or edit. The data for each of these routes is then displayed in formatted <span style={{fontWeight:'bold'}}>JSON</span>.
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/ORM-E-Commerce-Back-End.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>Employee Tracker Database</h3>
+              <a href="https://www.youtube.com/watch?v=HOw0JJUiuIo">
+                <img class= "projectpic" alt="Employee Tracker Database" src={employee}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>This command-line application was built from scratch to manage a company's employee database, using <span style={{fontWeight:'bold'}}>Node.js, Inquirer, and MySQL</span>. This application creates a user friendly interface in the terminal that allows non-developers to easily view and interact with information stored in the database. This type of interface is called <span style={{fontWeight:'bold'}}>content management systems (CMS)</span>.</p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/employeeTrackerDatabase"><img
             src={github}
             alt="github"
             style={{width: 40, alignItems: "center"}}
