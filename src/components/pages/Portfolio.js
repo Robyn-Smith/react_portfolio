@@ -6,8 +6,9 @@ import quiz from "../../assets/quiz.png";
 import weatherdash from "../../assets/weatherdash.png";
 import techblog from "../../assets/techblog.png";
 import github from '../../assets/github-icon-logo-png-transparent.png';
-import googledocs from '../../assets/kisspng-google-docs-google-slides-computer-icons-presentat-presentation-5ac6bf4b4c8b29.2069299915229745393135.png'
-import BlissfulBeg from '../../assets/Blissful.png'
+import googledocs from '../../assets/kisspng-google-docs-google-slides-computer-icons-presentat-presentation-5ac6bf4b4c8b29.2069299915229745393135.png';
+import BlissfulBeg from '../../assets/Blissful.png';
+import week2 from '../../assets/week2.png';
 
 export default function Portfolio() {
   return (
@@ -175,6 +176,24 @@ export default function Portfolio() {
               onMouseOver={e => e.currentTarget.style.opacity = 0.3}
               onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
             </section>
+
+            <section class="box">
+              <h3 style={{ color: '#b62075', textAlign: 'center'}}>My second project: Portfolio </h3>
+              <a href="https://robyn-smith.github.io/week-2-portfolio/">
+                <img class= "projectpic" alt="week 2 portfolio" src={week2}
+                onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+                onMouseOut={e => e.currentTarget.style.opacity = 1}></img>
+              </a>
+              <p>This project was created from scratch using <span style={{fontWeight: 'bold'}}>HTML</span> and <span style={{fontWeight:'bold'}}>CSS</span> to create a fully <span style={{fontWeight:'bold'}}>responsive</span> portfolio displaying my work to perspective employers. This project supported the creation of the porfolio you are currently viewing. 
+              </p>
+              <a style={{ color: '#b62075' }}href="https://github.com/Robyn-Smith/week-2-portfolio.git"><img
+            src={github}
+            alt="github"
+            style={{width: 40, alignItems: "center"}}
+            onMouseOver={e => e.currentTarget.style.opacity = 0.3}
+            onMouseOut={e => e.currentTarget.style.opacity = 1}/></a>
+            </section>
+            
           </article>
     </div>
   );
