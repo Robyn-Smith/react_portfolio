@@ -10,7 +10,7 @@ function Header({ currentPage }) {
         background: '#b6207562',}}>
         <h1 style={{ color: 'white'}}>Robyn Smith</h1>
         <p>
-          I am a hardworking, conscientious first class graduate looking for a career in coding.
+          I am a hardworking, conscientious first class graduate looking for a career in web development.
         </p>
       </header>
     );
