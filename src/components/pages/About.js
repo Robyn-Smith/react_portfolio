@@ -14,40 +14,19 @@ export default function About() {
   onMouseOut={e => e.currentTarget.style.opacity = 1}></img>*/}Resume</a>
       <div class= "aboutpage" style={{backgroundImage:'linear-gradient(60deg, rgba(241, 98, 16, 0.174), white, rgba(208, 5, 130, 0.215))', marginLeft: "5%", marginRight: "5%", borderRadius: "50px"}}>
         <p>
-        A career in coding is the right choice for me because I enjoy problem solving, creativity 
-        and critical thinking. Having recently completed my degree in Integrated Working with Children 
-        and Families, including a number of placements and paid employment, I decided to change career 
-        path. As a result, I have researched alternative careers and courses, decided to learn Python 
-        and quickly gained an interest in coding. I am a self-motivated, high achiever and work well in 
-        both team and individual settings. With additional coding skills I believe that I can apply 
-        myself to a career in the digital sector.
+        Hello, my name is Robyn Smith, I am a Junior full stack web developer who enjoys Front-end design & creativity and developing efficient websites/applications with pleasing user interfaces. I have recently completed the Full-Stack Coding Bootcamp, with the University of Birmingham and I am keen to utilise the skills I have gained in a permanent career in the digital sector. I am a self-motivated, high achiever and work well in both team and individual settings. I am looking for a role where I can continue to learn, develop and grow my skills as a professional. [I am dynamic, ambitious, proactive, dependable and I relish challenges.]
         </p>
 
         <p>
-        I have a strong academic record, my highest achievement being a 1st class BA honours degree. 
-        I also have 10 GCSEs at grade C or above (including 3 Bs, 3 As and an A*) and two Cache 
-        diplomas, both at grade A.  In learning and working environments I am attentive and 
-        enthusiastic. I am keen to excel at coding and utilise my other strengths to bring more 
-        than just technical competence into a future role.  Dedication and commitment to learning are 
-        key to my success.  I complete all coursework on time and to a high standard and achieve 
-        excellent results even in challenging circumstances; the best example being a 1st class 
-        honours degree during the Covid-19 pandemic!
+        I have a strong academic record, including 10 GCSEs at grade C or above (including 3 Bs, 3 As and an A*) and two Cache diplomas, both at grade A. My highest achievement being a 1st class BA honours degree in Integrated Working with Children and Families, I gained many hours of work experience and employment in this sector; however, I decided to change career path. As a result, I researched alternative careers and courses, decided to learn basic Python and quickly gained an interest in coding. I then completed the Full-Stack Coding Bootcamp and achieved an A+. After completing the Bootcamp, I started an internship at FL1 Digital to gain work experience and further develop my knowledge in web development. [In working and learning environments I am attentive and enthusiastic. I am keen to excel at coding and utilise my other strengths to bring more than just technical competence into my future role. Dedication and commitment to learning are key to my success.]
         </p>
 
         <p>
-        Many of the skills I have learned to date will be beneficial to my future role in the 
-        technology sector. These include excellent organisational, leadership and social skills as 
-        well as strong mathematical, problem-solving skills. I am familiar and competent with the 
-        latest technology; often helping others with technological issues. I am also keen to tap 
-        into my creative side, having a flair for art.
+        Many of the skills I have learned to date will be beneficial to my future role in the technology sector. These include a proficient knowledge and understanding of code and web development including (but not limited to) HTML, CSS and JavaScript. Good governance surrounding design, development, content migration and client liaison in website builds. Excellent social skills, experience and success with agile teamworking, organisational skills and leadership skills. [Although agile teamworking does not have a set leader or manager, I was voted to be the project lead during all group projects in the Bootcamp relaying the groups position/journey to the rest of the class, presenting our work, advocating for the team, supporting the team with any issues or decision making and resolving conflicts. All of the teams and tutors often said I was a good leader due to my social confidence, pragmatic approach, compassion and empathy.]
         </p>
 
         <p>
-        I am keen to apply my diverse skillset into coding and pursue a career in the tech industry. 
-        I am a committed, conscientious and a determined learner. I complete work to a very high 
-        standard and achieve excellent results.  I also receive excellent feedback from teachers, 
-        tutors and lecturers as well as employers.  Given these attributes, I know that I can achieve 
-        an excellent outcome from the bootcamp and embark on a successful career in technology.
+        I am keen to apply my diverse skillset into coding and pursue a career in the tech industry. I am a committed, conscientious and a determined professional. I complete work to a very high standard and achieve excellent results. I also receive excellent feedback from teachers, tutors and lecturers as well as employers. Given these attributes, I know that I can embark on a successful career in technology.
         </p>
       </div>
     </div>
