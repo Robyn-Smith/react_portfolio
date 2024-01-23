@@ -86,7 +86,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-family: 'Lora', serif;
+  font-family: 'Lora', 'Caveat', 'cursive';
 }
 
 a{
